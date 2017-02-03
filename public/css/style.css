@@ -31,14 +31,21 @@ header .navbar{
 }
 
 .hero_content h2 {
-	color: #FFF;
+	color: #3D0101;
 	font-size: 80px;
+	text-decoration-color: #FFF;
+	background-position: center ;
+	background-color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	opacity: 0.4;
+
 
 }
 
 .hero_content p {
 
-	color: #FFF;
+	color: #000;
 	font-size: 40px;
 	margin-bottom: 30px;
 

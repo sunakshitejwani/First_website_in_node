@@ -13,16 +13,19 @@ module.exports=router;
 
 router.get('/', function(req, res){
 
-	res.sendFile(path.join(__dirname,'../index.html'))
+	res.render('pages/index');
 });
 
 //route for our about page
 router.get('/about',function(req,res){
 	//res.send('hello again! I am the about page! ')
-	res.sendFile(path.join(__dirname,'../about.html'))
-})
-
+	res.render('pages/about');
+});
 //route for our contact page
-router.get('/contact');
+router.get('/contact',function(req,res){
+	res.render('pages/contact');
+});
 
-router.post('/contact');
+router.post('/contact',function(res,req){
+ 
+});
